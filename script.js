@@ -1,19 +1,19 @@
 // Listas de imagens
 const faseAImages = [
-  'imagens/1 fase A/ANTHONY.jpg','imagens/1 fase A/ARTHUR.jpg','imagens/1 fase A/ELISA.jpg',
-  'imagens/1 fase A/ELOAH.jpg','imagens/1 fase A/ENZO.jpg','imagens/1 fase A/ERICK.jpg',
-  'imagens/1 fase A/GABRIEL.jpg','imagens/1 fase A/HEITOR.jpg','imagens/1 fase A/JOAQUIM.jpg',
-  'imagens/1 fase A/JOSE.jpg','imagens/1 fase A/JULIA.jpg','imagens/1 fase A/LAURA.jpg',
-  'imagens/1 fase A/LIAN.jpg','imagens/1 fase A/MARIA THEREZA.jpg','imagens/1 fase A/MAYA.jpg',
-  'imagens/1 fase A/NICOLLY.jpg','imagens/1 fase A/RAVI.jpg','imagens/1 fase A/SAMUEL.jpg',
-  'imagens/1 fase A/THAUANNY.jpg'
+  'imagens/1 fase A/ANTHONY.webp','imagens/1 fase A/ARTHUR.webp','imagens/1 fase A/ELISA.webp',
+  'imagens/1 fase A/ELOAH.webp','imagens/1 fase A/ENZO.webp','imagens/1 fase A/ERICK.webp',
+  'imagens/1 fase A/GABRIEL.webp','imagens/1 fase A/HEITOR.webp','imagens/1 fase A/JOAQUIM.webp',
+  'imagens/1 fase A/JOSE.webp','imagens/1 fase A/JULIA.webp','imagens/1 fase A/LAURA.webp',
+  'imagens/1 fase A/LIAN.webp','imagens/1 fase A/MARIA THEREZA.webp','imagens/1 fase A/MAYA.webp',
+  'imagens/1 fase A/NICOLLY.webp','imagens/1 fase A/RAVI.webp','imagens/1 fase A/SAMUEL.webp',
+  'imagens/1 fase A/THAUANNY.webp'
 ];
 
 const faseBImages = [
-  'imagens/1 fase B/ANA ALICE.jpg','imagens/1 fase B/ANA LAURA.jpg','imagens/1 fase B/BIANCA.jpg',
-  'imagens/1 fase B/GAEL .jpg','imagens/1 fase B/HEITOR.jpg','imagens/1 fase B/HELENA .jpg',
-  'imagens/1 fase B/LORENZO.jpg','imagens/1 fase B/MARIA RITA .jpg','imagens/1 fase B/MARIAH.jpg',
-  'imagens/1 fase B/MIGUEL.jpg','imagens/1 fase B/THEO.jpg'
+  'imagens/1 fase B/ANA ALICE.webp','imagens/1 fase B/ANA LAURA.webp','imagens/1 fase B/BIANCA.webp',
+  'imagens/1 fase B/GAEL .webp','imagens/1 fase B/HEITOR.webp','imagens/1 fase B/HELENA .webp',
+  'imagens/1 fase B/LORENZO.webp','imagens/1 fase B/MARIA RITA .webp','imagens/1 fase B/MARIAH.webp',
+  'imagens/1 fase B/MIGUEL.webp','imagens/1 fase B/THEO.webp'
 ];
 
 // Criador de carrossel
