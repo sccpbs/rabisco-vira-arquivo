@@ -1,19 +1,19 @@
 // Listas de imagens
 const faseAImages = [
-  'imagens/1 fase A/ANTHONY.webp','imagens/1 fase A/ARTHUR.webp','imagens/1 fase A/ELISA.webp',
-  'imagens/1 fase A/ELOAH.webp','imagens/1 fase A/ENZO.webp','imagens/1 fase A/ERICK.webp',
-  'imagens/1 fase A/GABRIEL.webp','imagens/1 fase A/HEITOR.webp','imagens/1 fase A/JOAQUIM.webp',
-  'imagens/1 fase A/JOSE.webp','imagens/1 fase A/JULIA.webp','imagens/1 fase A/LAURA.webp',
-  'imagens/1 fase A/LIAN.webp','imagens/1 fase A/MARIA THEREZA.webp','imagens/1 fase A/MAYA.webp',
-  'imagens/1 fase A/NICOLLY.webp','imagens/1 fase A/RAVI.webp','imagens/1 fase A/SAMUEL.webp',
-  'imagens/1 fase A/THAUANNY.webp'
+  'imagens/1 fase A/anthony.webp','imagens/1 fase A/arthur.webp','imagens/1 fase A/elisa.webp',
+  'imagens/1 fase A/eloah.webp','imagens/1 fase A/enzo.webp','imagens/1 fase A/erick.webp',
+  'imagens/1 fase A/gabriel;.webp','imagens/1 fase A/heitor.webp','imagens/1 fase A/joaquim.webp',
+  'imagens/1 fase A/jose.webp','imagens/1 fase A/julia.webp','imagens/1 fase A/laura.webp',
+  'imagens/1 fase A/lian.webp','imagens/1 fase A/maria thereza.webp','imagens/1 fase A/maya.webp',
+  'imagens/1 fase A/nicolly.webp','imagens/1 fase A/ravi.webp','imagens/1 fase A/samuel.webp',
+  'imagens/1 fase A/thauanny.webp'
 ];
 
 const faseBImages = [
-  'imagens/1 fase B/ANA ALICE.webp','imagens/1 fase B/ANA LAURA.webp','imagens/1 fase B/BIANCA.webp',
-  'imagens/1 fase B/GAEL .webp','imagens/1 fase B/HEITOR.webp','imagens/1 fase B/HELENA .webp',
-  'imagens/1 fase B/LORENZO.webp','imagens/1 fase B/MARIA RITA .webp','imagens/1 fase B/MARIAH.webp',
-  'imagens/1 fase B/MIGUEL.webp','imagens/1 fase B/THEO.webp'
+  'imagens/1 fase B/ana alice.webp','imagens/1 fase B/ana laura.webp','imagens/1 fase B/bianca.webp',
+  'imagens/1 fase B/gael .webp','imagens/1 fase B/heitor.webp','imagens/1 fase B/helena .webp',
+  'imagens/1 fase B/lorenzo.webp','imagens/1 fase B/maria rita .webp','imagens/1 fase B/mariah.webp',
+  'imagens/1 fase B/miguel.webp','imagens/1 fase B/theo.webp'
 ];
 
 // Criador de carrossel
