@@ -53,13 +53,13 @@ body{
   color:#2b2b2b;
 }
 
-/* Ativo */
+
 .nav-link.active{
   background:var(--roxo);
   color:var(--branco);
 }
 
-/* Não ativo */
+
 .top-nav .nav-link:not(.active){
   background:#fff;
   color:#2b2b2b;
@@ -250,7 +250,7 @@ main{padding-bottom:80px}
 .voltar-wrap{
   margin-top:14px;
 }
-/* ====== CORREÇÕES DE RESPONSIVIDADE ====== */
+
 @media (max-width:480px){
 
   /* ---- HEADER / LOGO ---- */
@@ -260,7 +260,7 @@ main{padding-bottom:80px}
     padding:12px;
   }
 
-  /* A logo deixa de ser absoluta e volta ao fluxo normal */
+  
   .logo{
     position:static;
     transform:none;
@@ -268,7 +268,7 @@ main{padding-bottom:80px}
   }
 
   .logo-img{
-    height:90px; /* Ficava pequena demais antes (64px) */
+    height:90px; 
   }
 
   /* Menu */
@@ -282,7 +282,7 @@ main{padding-bottom:80px}
     font-size:15px;
   }
 
-  /* ---- HERO ---- */
+ 
   .hero{
     flex-direction:column;
     padding:18px;
@@ -294,15 +294,15 @@ main{padding-bottom:80px}
     padding:10px 12px;
   }
 
-  /* ---- ESPAÇO PARA O FOOTER ---- */
+
   main{
-    padding-bottom:120px; /* empurra conteúdo para não ficar atrás do footer */
+    padding-bottom:120px; 
   }
 
-  /* ---- BOTÃO VOLTAR ---- */
+  
   .voltar-wrap,
   .btn-roxo{
-    margin-bottom:90px; /* deixa o botão totalmente visível */
+    margin-bottom:90px; 
   }
 
   /* ---- FOOTER ---- */
@@ -313,13 +313,13 @@ main{padding-bottom:80px}
 @media (max-width:480px){
   body { padding-bottom:100px; }
 }
-/* GARANTIR QUE OS BOTÕES APAREÇAM SEMPRE */
+
 .carousel-wrapper {
   position: relative;
-  overflow: visible !important; /* impede que esconda os botões */
+  overflow: visible !important; 
 }
 
-/* Botões da galeria */
+*/
 .carousel-btn {
   z-index: 9999 !important;
   position: absolute;
@@ -334,22 +334,22 @@ main{padding-bottom:80px}
   cursor: pointer;
 }
 
-/* Botão anterior */
+
 .carousel-btn.prev {
   left: 10px;
 }
 
-/* Botão próximo */
+
 .carousel-btn.next {
   right: 10px;
 }
 
-/* Ajustes no mobile */
+
 @media (max-width: 480px) {
   .carousel-btn {
     font-size: 26px;
     padding: 12px 16px;
-    z-index: 999999 !important; /* força ficar acima da imagem */
+    z-index: 999999 !important; 
   }
 
   .carousel-image {
