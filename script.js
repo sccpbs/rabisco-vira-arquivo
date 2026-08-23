@@ -1,19 +1,38 @@
 // Listas de imagens
 const faseAImages = [
-  'imagens/1 fase A/anthony.webp','imagens/1 fase A/arthur.webp','imagens/1 fase A/elisa.webp',
-  'imagens/1 fase A/eloah.webp','imagens/1 fase A/enzo.webp','imagens/1 fase A/erick.webp',
-  'imagens/1 fase A/gabriel;.webp','imagens/1 fase A/heitor.webp','imagens/1 fase A/joaquim.webp',
-  'imagens/1 fase A/jose.webp','imagens/1 fase A/julia.webp','imagens/1 fase A/laura.webp',
-  'imagens/1 fase A/lian.webp','imagens/1 fase A/maria thereza.webp','imagens/1 fase A/maya.webp',
-  'imagens/1 fase A/nicolly.webp','imagens/1 fase A/ravi.webp','imagens/1 fase A/samuel.webp',
-  'imagens/1 fase A/thauanny.webp'
+  'imagens/1 fase a/anthony.webp',
+  'imagens/1 fase a/arthur.webp',
+  'imagens/1 fase a/elisa.webp',
+  'imagens/1 fase a/eloah.webp',
+  'imagens/1 fase a/enzo.webp',
+  'imagens/1 fase a/erick.webp',
+  'imagens/1 fase a/gabriel.webp',
+  'imagens/1 fase a/heitor.webp',
+  'imagens/1 fase a/joaquim.webp',
+  'imagens/1 fase a/jose.webp',
+  'imagens/1 fase a/julia.webp',
+  'imagens/1 fase a/laura.webp',
+  'imagens/1 fase a/lian.webp',
+  'imagens/1 fase a/maria thereza.webp',
+  'imagens/1 fase a/maya.webp',
+  'imagens/1 fase a/nicolly.webp',
+  'imagens/1 fase a/ravi.webp',
+  'imagens/1 fase a/samuel.webp',
+  'imagens/1 fase a/thauanny.webp'
 ];
 
 const faseBImages = [
-  'imagens/1 fase B/ana alice.webp','imagens/1 fase B/ana laura.webp','imagens/1 fase B/bianca.webp',
-  'imagens/1 fase B/gael .webp','imagens/1 fase B/heitor.webp','imagens/1 fase B/helena .webp',
-  'imagens/1 fase B/lorenzo.webp','imagens/1 fase B/maria rita .webp','imagens/1 fase B/mariah.webp',
-  'imagens/1 fase B/miguel.webp','imagens/1 fase B/theo.webp'
+  'imagens/1 fase b/ana alice.webp',
+  'imagens/1 fase b/ana laura.webp',
+  'imagens/1 fase b/bianca.webp',
+  'imagens/1 fase b/gael .webp',
+  'imagens/1 fase b/heitor.webp',
+  'imagens/1 fase b/helena .webp',
+  'imagens/1 fase b/lorenzo.webp',
+  'imagens/1 fase b/maria rita .webp',
+  'imagens/1 fase b/mariah.webp',
+  'imagens/1 fase b/miguel.webp',
+  'imagens/1 fase b/theo.webp'
 ];
 
 // Criador de carrossel
