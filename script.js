@@ -75,7 +75,7 @@ function createCarousel(list, imgId, key) {
   };
 }
 
-// Referências globais
+
 const carousels = {};
 let lightboxEl, lightboxImg, lightboxClose;
 let lightboxOpen = false;
@@ -141,10 +141,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// API de debug
+
 window._gallery = { carousels, openLightbox, closeLightbox, lightboxNext, lightboxPrev };
 
-// Tentativa de corrigir nomes de arquivos
+
 function tryLoadVariants(path, cb) {
   if (!path) return cb(null);
 
