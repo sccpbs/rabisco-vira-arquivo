@@ -12,7 +12,7 @@
 
 body{
   font-family:"Baloo 2","Poppins",sans-serif;
-  background:url('imagens/PNG.png') center/cover no-repeat, var(--fundo);
+  background:url('imagens/png.png') center/cover no-repeat, var(--fundo);
   background-attachment:fixed;
   color:#333;
 }
