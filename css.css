@@ -1,0 +1,359 @@
+:root{
+  --rosa:#FF6FA3;
+  --roxo:#8E6AE8;
+  --amarelo:#FFD460;
+  --verde:#7CE39A;
+  --azul:#4FD1E0;
+  --branco:#FFFFFF;
+  --fundo:#FFF9F2;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:"Baloo 2","Poppins",sans-serif;
+  background:url('imagens/PNG.png') center/cover no-repeat, var(--fundo);
+  background-attachment:fixed;
+  color:#333;
+}
+
+/* HEADER */
+.site-header{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px 28px;
+  position:relative;
+  gap:18px;
+}
+
+.logo{
+  position:absolute;
+  left:28px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.logo-img{height:150px;display:block}
+
+.top-nav{
+  display:flex;
+  gap:10px;
+  background:rgba(255,255,255,0.05);
+  padding:6px 8px;
+  border-radius:12px;
+}
+
+.nav-link{
+  padding:12px 18px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:700;
+  font-size:18px;
+  color:#2b2b2b;
+}
+
+/* Ativo */
+.nav-link.active{
+  background:var(--roxo);
+  color:var(--branco);
+}
+
+/* Não ativo */
+.top-nav .nav-link:not(.active){
+  background:#fff;
+  color:#2b2b2b;
+  border:2px solid rgba(0,0,0,0.05);
+}
+
+/* Hover geral */
+.top-nav .nav-link:hover{
+  background:var(--roxo) !important;
+  color:var(--branco) !important;
+}
+
+/* HOME */
+.hero{
+  display:flex;
+  gap:24px;
+  align-items:center;
+  padding:40px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.intro{
+  flex:1;
+  background:#fff;
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.06);
+  text-align:center;
+}
+
+.intro h2{font-size:42px;color:var(--roxo);margin-bottom:12px}
+
+.objetivos-grid{
+  display:flex;
+  gap:24px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.obj-card{
+  flex:0 1 380px;
+  background:#fff;
+  padding:22px;
+  border-radius:14px;
+  box-shadow:0 12px 32px rgba(0,0,0,0.07);
+  border:6px solid var(--amarelo);
+}
+
+.obj-card h4{color:var(--roxo);margin-bottom:10px}
+
+.objetivos-note{
+  margin-top:16px;
+  font-weight:700;
+  color:#555;
+}
+
+/* FOOTER */
+footer{
+  position:fixed;
+  bottom:0;
+  left:0;right:0;
+  padding:8px 12px;
+  background:var(--roxo);
+  color:var(--branco);
+  text-align:center;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+}
+
+main{padding-bottom:80px}
+
+/* GALERIA */
+.fases-wrap{
+  max-width:900px;
+  margin:36px auto;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.gallery-section{
+  max-width:1100px;
+  margin:auto;
+}
+
+.carousel-wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+}
+
+.carousel-image{
+  width:100%;
+  border-radius:12px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.16);
+  background:#fff;
+}
+
+.carousel-btn{
+  background:var(--roxo);
+  color:#fff;
+  border:none;
+  padding:16px 20px;
+  border-radius:14px;
+  font-size:40px;
+  cursor:pointer;
+}
+
+/* LIGHTBOX */
+.lightbox{
+  position:fixed;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  background:rgba(0,0,0,0.75);
+  z-index:1500;
+}
+
+.lightbox.open{display:flex}
+
+.lightbox-content{
+  position:relative;
+  max-width:95%;
+  max-height:95%;
+}
+
+.lightbox-content img{
+  max-width:100%;
+  max-height:100%;
+  border-radius:10px;
+}
+
+.lightbox-close{
+  position:absolute;
+  top:8px;
+  right:8px;
+  background:var(--roxo);
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  width:36px;
+  height:36px;
+  cursor:pointer;
+}
+
+/* BOTÃO ROXO */
+.btn-roxo{
+  display:inline-block;
+  padding:16px 26px;
+  background:var(--roxo);
+  color:#fff;
+  border-radius:14px;
+  text-decoration:none;
+  font-weight:700;
+  font-size:18px;
+  box-shadow:0 10px 30px rgba(255,111,163,0.15);
+}
+
+.btn-roxo:hover{
+  transform:translateY(-3px);
+}
+
+/* RESPONSIVO */
+@media (max-width:480px){
+  .site-header{flex-direction:column;gap:6px;padding:12px}
+  .logo-img{height:64px}
+  .top-nav{width:100%;justify-content:center}
+  .nav-link{padding:10px 12px;font-size:15px}
+  .hero{flex-direction:column;padding:18px}
+  .carousel-btn{font-size:24px;padding:10px 12px}
+  main{padding-bottom:120px}
+}
+.titulo-fase{
+  color:var(--roxo);
+  margin-bottom:10px;
+  margin-top:26px;
+  font-size:30px;
+}
+
+.titulo-fase:first-of-type{
+  margin-top:0;
+}
+
+.voltar-wrap{
+  margin-top:14px;
+}
+/* ====== CORREÇÕES DE RESPONSIVIDADE ====== */
+@media (max-width:480px){
+
+  /* ---- HEADER / LOGO ---- */
+  .site-header{
+    flex-direction:column;
+    gap:6px;
+    padding:12px;
+  }
+
+  /* A logo deixa de ser absoluta e volta ao fluxo normal */
+  .logo{
+    position:static;
+    transform:none;
+    margin:0 auto;
+  }
+
+  .logo-img{
+    height:90px; /* Ficava pequena demais antes (64px) */
+  }
+
+  /* Menu */
+  .top-nav{
+    width:100%;
+    justify-content:center;
+  }
+
+  .nav-link{
+    padding:10px 12px;
+    font-size:15px;
+  }
+
+  /* ---- HERO ---- */
+  .hero{
+    flex-direction:column;
+    padding:18px;
+  }
+
+  /* ---- BOTOES GALERIA ---- */
+  .carousel-btn{
+    font-size:24px;
+    padding:10px 12px;
+  }
+
+  /* ---- ESPAÇO PARA O FOOTER ---- */
+  main{
+    padding-bottom:120px; /* empurra conteúdo para não ficar atrás do footer */
+  }
+
+  /* ---- BOTÃO VOLTAR ---- */
+  .voltar-wrap,
+  .btn-roxo{
+    margin-bottom:90px; /* deixa o botão totalmente visível */
+  }
+
+  /* ---- FOOTER ---- */
+  footer{
+    padding:4px 8px;  /* deixa fino */
+  }
+}
+@media (max-width:480px){
+  body { padding-bottom:100px; }
+}
+/* GARANTIR QUE OS BOTÕES APAREÇAM SEMPRE */
+.carousel-wrapper {
+  position: relative;
+  overflow: visible !important; /* impede que esconda os botões */
+}
+
+/* Botões da galeria */
+.carousel-btn {
+  z-index: 9999 !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--roxo);
+  color: #fff;
+  border: none;
+  padding: 16px 22px;
+  border-radius: 14px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* Botão anterior */
+.carousel-btn.prev {
+  left: 10px;
+}
+
+/* Botão próximo */
+.carousel-btn.next {
+  right: 10px;
+}
+
+/* Ajustes no mobile */
+@media (max-width: 480px) {
+  .carousel-btn {
+    font-size: 26px;
+    padding: 12px 16px;
+    z-index: 999999 !important; /* força ficar acima da imagem */
+  }
+
+  .carousel-image {
+    position: relative;
+    z-index: 1;
+  }
+}

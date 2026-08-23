@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Galeria — Rabisco Vira Arquivo</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <img src="imagens/LOGO1.png" alt="Logo do site" class="logo-img">
+    </div>
+
+    <nav class="top-nav">
+      <a href="index.html" class="nav-link">Objetivo</a>
+      <a href="galeria.html" class="nav-link active">Galeria</a>
+    </nav>
+  </header>
+
+  <main class="fases-wrap">
+    <section class="gallery-section">
+
+      <h3 class="titulo-fase">1ª Fase A</h3>
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" data-target="a">‹</button>
+        <img class="carousel-image" id="img-fase-a" src="" alt="Imagem Fase A">
+        <button class="carousel-btn next" data-target="a">›</button>
+      </div>
+
+      <h3 class="titulo-fase">1ª Fase B</h3>
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" data-target="b">‹</button>
+        <img class="carousel-image" id="img-fase-b" src="" alt="Imagem Fase B">
+        <button class="carousel-btn next" data-target="b">›</button>
+      </div>
+
+    </section>
+
+    <p class="voltar-wrap">
+      <a href="index.html" class="btn-roxo">Voltar</a>
+    </p>
+  </main>
+
+  <footer>
+    <p>Este site foi feito apenas para a divulgação dos desenhos para os pais.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Imagem ampliada">
+      <button class="lightbox-close" id="lightbox-close">✕</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
